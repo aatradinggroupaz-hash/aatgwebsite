@@ -1,0 +1,6 @@
+{
+  "name": "AA Trading Group",
+  "description": "Official landing page for AA Trading Group MMC - International commodity trading and supply chain partner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
