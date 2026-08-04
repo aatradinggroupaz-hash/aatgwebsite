@@ -47,10 +47,7 @@ export default function App() {
         <AboutSection t={t} />
 
         {/* Business Activities Section */}
-        <ActivitiesSection
-          t={t}
-          onContactClick={() => handleNavigate('contact')}
-        />
+        <ActivitiesSection t={t} />
 
         {/* Regional Reach Section */}
         <RegionsSection t={t} />

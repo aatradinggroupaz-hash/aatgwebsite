@@ -1,15 +1,13 @@
 import React from 'react';
 import { Translation } from '../types';
-import { Factory, FlaskConical, Wheat, Search, Truck, Briefcase, FileCheck, ArrowUpRight } from 'lucide-react';
+import { Factory, FlaskConical, Wheat, Search, Truck, Briefcase, FileCheck } from 'lucide-react';
 
 interface ActivitiesSectionProps {
   t: Translation;
-  onContactClick: () => void;
 }
 
 export const ActivitiesSection: React.FC<ActivitiesSectionProps> = ({
   t,
-  onContactClick,
 }) => {
   return (
     <section id="activities" className="py-20 bg-slate-950 text-slate-100 relative">
@@ -90,14 +88,6 @@ export const ActivitiesSection: React.FC<ActivitiesSectionProps> = ({
                 </div>
               </div>
             </div>
-
-            <button
-              onClick={onContactClick}
-              className="mt-8 pt-4 border-t border-slate-800/80 text-amber-400 hover:text-amber-300 text-xs font-bold uppercase tracking-wider flex items-center justify-between group-hover:translate-x-1 transition-transform cursor-pointer"
-            >
-              <span>Inquire Trading Terms</span>
-              <ArrowUpRight className="w-4 h-4" />
-            </button>
           </div>
 
           {/* Pillar 2: Supply Chain Participation */}
@@ -161,14 +151,6 @@ export const ActivitiesSection: React.FC<ActivitiesSectionProps> = ({
                 </div>
               </div>
             </div>
-
-            <button
-              onClick={onContactClick}
-              className="mt-8 pt-4 border-t border-slate-800/80 text-amber-400 hover:text-amber-300 text-xs font-bold uppercase tracking-wider flex items-center justify-between group-hover:translate-x-1 transition-transform cursor-pointer"
-            >
-              <span>Explore Supply Chain Services</span>
-              <ArrowUpRight className="w-4 h-4" />
-            </button>
           </div>
 
           {/* Pillar 3: Tender Participation */}
@@ -208,14 +190,6 @@ export const ActivitiesSection: React.FC<ActivitiesSectionProps> = ({
                 </div>
               </div>
             </div>
-
-            <button
-              onClick={onContactClick}
-              className="mt-8 pt-4 border-t border-slate-800/80 text-amber-400 hover:text-amber-300 text-xs font-bold uppercase tracking-wider flex items-center justify-between group-hover:translate-x-1 transition-transform cursor-pointer"
-            >
-              <span>Submit Tender Proposal</span>
-              <ArrowUpRight className="w-4 h-4" />
-            </button>
           </div>
         </div>
       </div>
