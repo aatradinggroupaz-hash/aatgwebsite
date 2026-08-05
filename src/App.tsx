@@ -6,7 +6,6 @@ import { Hero } from './components/Hero';
 import { QuickStats } from './components/QuickStats';
 import { AboutSection } from './components/AboutSection';
 import { ActivitiesSection } from './components/ActivitiesSection';
-import { RegionsSection } from './components/RegionsSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 
@@ -48,9 +47,6 @@ export default function App() {
 
         {/* Business Activities Section */}
         <ActivitiesSection t={t} />
-
-        {/* Regional Reach Section */}
-        <RegionsSection t={t} />
 
         {/* Contact Section */}
         <ContactSection t={t} />

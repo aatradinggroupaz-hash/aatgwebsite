@@ -65,12 +65,6 @@ export const Header: React.FC<HeaderProps> = ({
               {t.nav.activities}
             </button>
             <button
-              onClick={() => handleNavClick('regions')}
-              className="text-sm font-medium text-slate-200 hover:text-amber-400 transition-colors cursor-pointer py-1"
-            >
-              {t.nav.regions}
-            </button>
-            <button
               onClick={() => handleNavClick('contact')}
               className="text-sm font-medium text-slate-200 hover:text-amber-400 transition-colors cursor-pointer py-1"
             >
@@ -120,13 +114,6 @@ export const Header: React.FC<HeaderProps> = ({
             className="w-full text-left py-2.5 px-3 rounded-lg text-base font-semibold text-slate-100 hover:bg-slate-800 hover:text-amber-400 flex items-center justify-between"
           >
             <span>{t.nav.activities}</span>
-            <ArrowRight className="w-4 h-4 text-slate-500" />
-          </button>
-          <button
-            onClick={() => handleNavClick('regions')}
-            className="w-full text-left py-2.5 px-3 rounded-lg text-base font-semibold text-slate-100 hover:bg-slate-800 hover:text-amber-400 flex items-center justify-between"
-          >
-            <span>{t.nav.regions}</span>
             <ArrowRight className="w-4 h-4 text-slate-500" />
           </button>
           <button
